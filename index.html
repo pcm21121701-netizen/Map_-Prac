@@ -41,11 +41,19 @@
  // Segundo marcador: Coyoacán
   L.marker([19.3467, -99.1617]).addTo(map)
     .bindPopup('Coyoacán');
+  L.marker([19.352642674262675, -99.2823600254268]).addTo(map)
+    .bindPopup('UAM-Cuajimalpa');
+  L.marker([19.362400591085127, -99.27081579805501]).addTo(map)
+    .bindPopup('Plaza Santa Fe');
+  L.marker([19.338186927830048, -99.29493422130051]).addTo(map)
+    .bindPopup('Valle de las monjas');
+  L.marker([19.302143220644552, -99.29283136965688]).addTo(map)
+    .bindPopup('Peñas Desierto de los leones');
 
   // Define la capa vacía para las alcaldías
   var alcaldiasLayer = L.geoJSON(null, {
     style: {
-      color: 'blue',
+      color: 'pink',
       weight: 2,
       fillOpacity: 0.1
     },
@@ -74,4 +82,5 @@
 
 </body>
 </html>
+
 
